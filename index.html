@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Neon - Lights Proposal</title>
+    
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="container" id="container">
+        <div class="text-container">
+            <p class="icon">
+                <i class="fas fa-laugh-wink"></i>
+                <i class="fas fa-hamburger"></i>
+                <i class="fab fa-angellist"></i>
+            </p>
+            <h1 class="title">
+                STREET'S BURGUERS <br>  
+                Best, juiciest 'n spiciests burguers in town<br> <br>
+                <span class="orange-neon regular-text">
+                    We're open!
+                </span>
+            </h1>
+            <p class="description">
+                What R U waiting for?<br>
+                Give'em just a bit <br>
+                You'll wont regret!
+            </p>
+            <a href="#" class="link-btn">Info</a>
+        </div>
+    </header>
+
+    <main>
+		<section class="contenedor">
+			<h2 class="subtitulo-h2">Come 'n get some burguers</h2>
+			<p><span class="letra-capital">S</span>treet's Burguers are outstanding way to oluptate recusandae autem, earum accusamus, non, cupiditate nihil!</p>
+
+			<p>Doloremque voluptatum incidunt architecto explicabo voluptate eveniet, accusantium odit alias est fugiat eum consectetur dolor consequatur nihil at voluptatibus inventore, temporibus tempora?
+			Est itaque, corrupti, reprehenderit placeat aut deleniti a vel ipsum perspiciatis accusamus quasi, quo earum consequatur. Cum distinctio quae sapiente fuga laboriosam.</p>
+
+			<p>Cupiditate nam dolore inventore at dicta molestiae, adipisci voluptatem nihil asperiores, sunt debitis? Rerum, sed impedit qui sapiente eaque nesciunt voluptas consequuntur!</p>
+		</section>
+	</main>
+
+    <script src="https://kit.fontawesome.com/f90ceb0da3.js" crossorigin="anonymous"></script>
+    <script>
+		window.addEventListener('scroll', () => {
+			const header = document.getElementById('container');
+			header.style.opacity = '1' - window.pageYOffset / 650;
+		});
+	</script>
+</body>
+</html>
